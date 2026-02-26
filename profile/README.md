@@ -39,7 +39,7 @@ LG 유플러스 유레카 SW 교육과정 3기 최종 융합 프로젝트 <br />
 
 ## ⚙️ 기술 스택
 <kbd>
-  <img width="391" height="550" alt="image" src="https://github.com/user-attachments/assets/803993e0-430d-4ca5-aa60-61e4b1acee7c" style="border:1px solid black;"/>
+  <img width="389" height="541" alt="image" src="https://github.com/user-attachments/assets/e936193c-f5c3-4adb-ab52-e7d377cb3f92" />
 </kbd>
 
 
@@ -128,30 +128,25 @@ app
 ```
 ### React
 ```
-├── src
-│   ├── App.tsx
-│   ├── Router.tsx
-│   ├── assets (이미지, 폰트 등)
-│   ├── common (공통으로 사용하는 값들)
-│   │   ├── components
-│   │   ├── constants
-│   │   ├── hooks
-│   │   ├── styles
-│   │   ├── types
-│   │   └── utils
-│   ├── main.tsx
-│   ├── pages (페이지)
-│   │   ├── detail 
-│   │   │   ├── components (페이지 내에서 사용할 컴포넌트)
-│   │   │   ├── stores (페이지 내에서 사용할 스토어)
-│   │   │   ├── hooks (페이지 내에서 사용할 커스텀 훅)
-│   │   │   └── index.tsx
-│   │   ├── main
-│   ├── service (서버와 통신시 필요한 파일)
-│   │   ├── apis
-│   │   └── googleAnalytics
-│   ├── stores (공통으로 사용하는 스토어)
-...
+src/
+├── api/              # Axios 인스턴스 및 공통 API 호출 로직
+├── assets/           # 이미지, 아이콘, 폰트 등 정적 자원
+├── components/       # 재사용 가능한 UI 컴포넌트
+│   ├── common/       # Button, Input, Modal 등 (Atomic 디자인)
+│   └── layout/       # Sidebar, Header, RootLayout 등 공통 레이아웃
+├── constants/        # 환경변수, API 경로, 고정 메시지
+├── hooks/            # 커스텀 훅 (useAuth, useCustomerQuery 등)
+├── pages/            # 각 도메인별 페이지 컴포넌트
+│   ├── auth/         # 로그인, 회원가입 (Full-page)
+│   ├── dashboard/    # 메인 대시보드 (통계/인사이트)
+│   ├── customers/    # 고객 관리 (목록, 검색, 상세)
+│   └── analysis/     # 데이터 분석 (코호트, RFM 등)
+├── store/            # Zustand를 이용한 전역 상태 관리
+├── types/            # TypeScript 인터페이스 및 타입 정의
+├── utils/            # 날짜 포맷팅, 수치 계산 등 공통 유틸리티
+├── routes.tsx        # React Router를 이용한 경로 설정
+├── App.tsx           # RouterProvider 및 Provider 설정
+└── main.tsx          # 앱 엔트리 포인트
 ```
 
 
