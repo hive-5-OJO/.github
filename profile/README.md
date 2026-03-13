@@ -155,7 +155,8 @@ src/
 
 ## 📌 ERD
 <kbd>
-  <img width="1251" height="802" alt="image" src="https://github.com/user-attachments/assets/9159b7b5-0b98-4478-883a-8607c43d499a" style="border:1px solid black;"/>
+  <img width="4710" height="2522" alt="최종융합프로젝트" src="https://github.com/user-attachments/assets/18863e24-0a2a-4639-9652-9e042bfd502d" />
+
 </kbd>
 <p>
   🔗 <a href="https://www.erdcloud.com/d/XRr2FYBQWb9c6aDbb" rel="nofollow">ERDCloud</a>  
