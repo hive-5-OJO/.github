@@ -76,6 +76,7 @@ docker-compose up --build
 ```
 application.properties
 docker-compose.yml
+.env
 ```
 
 
