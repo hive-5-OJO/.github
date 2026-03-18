@@ -87,23 +87,23 @@ docker-compose.yml
 ### Spring
 ```
 java/org/backend
-├── common 						// 예외 처리, 공통 응답, 유틸리티              
-├── config 						// Security 설정              
+├── common 							// 예외 처리, 공통 응답, 유틸리티              
+├── config 							// Security 설정              
 ├── domain               
-│   ├── admin            		// 관리자 도메인
+│   ├── admin            			// 관리자 도메인
 │   │   ├── controller
 │   │   ├── dto      
 │   │   ├── entity    
 │   │   ├── repository   
 │   │   └── service
-│   ├── advice           		// 상담 도메인
+│   ├── advice           			// 상담 도메인
 │   │   ├── ... (위와 동일 구조)
-│   │   ├── document 	 		# Elasticsearch 관련  
+│   │   ├── document 	 			# Elasticsearch 관련  
 │   │   ├── formatter          
 │   │   └── view  
-│   ├── analysis         		// 분석 도메인(RFM, LTV 등)
+│   ├── analysis         			// 분석 도메인(RFM, LTV 등)
 │   │   ├── ... (admin과 동일 구조)
-│   ├── auth             		// 권한 관리 도메인(로그인, 회원가입 등)
+│   ├── auth             			// 권한 관리 도메인(로그인, 회원가입 등)
 │   │   ├── ... (위와 동일 구조)
 │   │   ├── interceptor 	  
 │   │   ├── oauth          
@@ -115,12 +115,12 @@ java/org/backend
 │   │   └── scheduler
 │   ├── channel
 │   │   ├── ... (admin과 동일 구조)
-│   ├── member          		// 회원 도메인
+│   ├── member          			// 회원 도메인
 │   │   ├── ... (위와 동일 구조)
 │   │   └── document 
 │   ├── subscription
 │   │   ├── ... (admin과 동일 구조)
-└── scheduler  					// Elasticsearch 설정
+└── scheduler  						// Elasticsearch 설정
 ```
 ### FAST API
 ```
