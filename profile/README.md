@@ -263,44 +263,44 @@ src/
     <td>홍세민</td>
   </tr>
   <tr>
-     <td align="center">
+     <td align="center" width="12.5%">
         <a href="https://github.com/0andrich">
-          <img src="https://avatars.githubusercontent.com/u/139140907?v=4" width="150px" alt="김영우"/><br />
+          <img src="https://avatars.githubusercontent.com/u/139140907?v=4" alt="김영우"/><br />
         </a>
      </td>
-     <td align="center">
+     <td align="center" width="12.5%">
         <a href="https://github.com/jonghyunRyu">
-          <img src="https://avatars.githubusercontent.com/u/80243566?v=4" width="150px" alt="류종현"/><br />
+          <img src="https://avatars.githubusercontent.com/u/80243566?v=4" alt="류종현"/><br />
         </a>
      </td>
-     <td align="center">
+     <td align="center" width="12.5%">
         <a href="https://github.com/hwantae">
-          <img src="https://avatars.githubusercontent.com/u/73492261?v=4" width="150px" alt="권태환"/><br />
+          <img src="https://avatars.githubusercontent.com/u/73492261?v=4" alt="권태환"/><br />
         </a>
      </td>
-     <td align="center">
+     <td align="center" width="12.5%">
         <a href="https://github.com/Norang2810">
-          <img src="https://avatars.githubusercontent.com/u/84859429?v=4" width="150px" alt="박진우"/><br />
+          <img src="https://avatars.githubusercontent.com/u/84859429?v=4" alt="박진우"/><br />
         </a>
      </td>
-     <td align="center">
+     <td align="center" width="12.5%">
         <a href="https://github.com/bakyunsu00">
-          <img src="https://avatars.githubusercontent.com/u/68821547?v=4" width="150px" alt="박현수"/><br />
+          <img src="https://avatars.githubusercontent.com/u/68821547?v=4" alt="박현수"/><br />
         </a>
      </td>
-     <td align="center">
+     <td align="center" width="12.5%">
         <a href="https://github.com/ljh5918">
-          <img src="https://avatars.githubusercontent.com/u/151804624?v=4" width="150px" alt="이재혁"/><br />
+          <img src="https://avatars.githubusercontent.com/u/151804624?v=4" alt="이재혁"/><br />
         </a>
      </td>
-     <td align="center">
+     <td align="center" width="12.5%">
         <a href="https://github.com/Jung-Que">
-          <img src="https://avatars.githubusercontent.com/u/108854679?v=4" width="150px" alt="정현서"/><br />
+          <img src="https://avatars.githubusercontent.com/u/108854679?v=4" alt="정현서"/><br />
         </a>
      </td>
-     <td align="center">
+     <td align="center" width="12.5%">
         <a href="https://github.com/semsemin">
-          <img src="https://avatars.githubusercontent.com/u/114004065?v=4" width="150px" alt="홍세민"/><br />
+          <img src="https://avatars.githubusercontent.com/u/114004065?v=4" alt="홍세민"/><br />
         </a>
      </td>
   </tr>
