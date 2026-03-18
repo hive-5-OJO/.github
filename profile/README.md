@@ -129,24 +129,40 @@ app
 ### React
 ```
 src/
-├── api/              # Axios 인스턴스 및 공통 API 호출 로직
-├── assets/           # 이미지, 아이콘, 폰트 등 정적 자원
-├── components/       # 재사용 가능한 UI 컴포넌트
-│   ├── common/       # Button, Input, Modal 등 (Atomic 디자인)
-│   └── layout/       # Sidebar, Header, RootLayout 등 공통 레이아웃
-├── constants/        # 환경변수, API 경로, 고정 메시지
-├── hooks/            # 커스텀 훅 (useAuth, useCustomerQuery 등)
-├── pages/            # 각 도메인별 페이지 컴포넌트
-│   ├── auth/         # 로그인, 회원가입 (Full-page)
-│   ├── dashboard/    # 메인 대시보드 (통계/인사이트)
-│   ├── customers/    # 고객 관리 (목록, 검색, 상세)
-│   └── analysis/     # 데이터 분석 (코호트, RFM 등)
-├── store/            # Zustand를 이용한 전역 상태 관리
-├── types/            # TypeScript 인터페이스 및 타입 정의
-├── utils/            # 날짜 포맷팅, 수치 계산 등 공통 유틸리티
-├── routes.tsx        # React Router를 이용한 경로 설정
-├── App.tsx           # RouterProvider 및 Provider 설정
-└── main.tsx          # 앱 엔트리 포인트
+├── assets/           		# 정적 자원 (이미지, 아이콘, 폰트 등) 
+├── components/       		# 재사용 가능한 UI 컴포넌트
+│   ├── auth/         		# 권한 관리 레이아웃 (로그인, 회원가입 등)
+│   └── common/       		# 공통 레이아웃 (에러 처리 등)
+├── entities/           	# 도메인 모델, API, 데이터 스키마 (핵심 비즈니스 로직)
+│   └── domain명/
+│       ├── api/        	# 백엔드 서버와의 데이터 통신 로직 (Axios instance 등)
+│       ├── model/      	# 도메인 관련 상태 정의, 데이터 페칭 훅 (Types, Query Hooks)
+│       └── index.ts    	# 도메인 외부 노출을 위한 통합 엔트리 (Barrel File)
+├── features/           	# 사용자 인터렉션을 통한 기능 단위 (버튼 클릭, 폼 제출 등 액션)
+│   ├── admin/          	# 관리자 기능 
+│   ├── auth/           	# 인증 기능 
+│   └── customer/       	# 고객 관련 기능 
+├── pages/              	# 각 도메인별 페이지 컴포넌트
+│   ├── admin/          	# 관리자 설정 및 제어 페이지
+│   ├── analysis/       	# 데이터 분석 전문 페이지 (코호트, RFM 상세 등)
+│   ├── auth/           	# 로그인 및 회원가입 페이지
+│   ├── channels/       	# 채널 관리 및 상세 정보 페이지
+│   ├── customers/      	# 전체 고객 목록 및 검색 페이지
+│   ├── dashboard/      	# 핵심 지표 요약 및 대시보드 메인 페이지
+│   ├── not-found/      	# 404 에러 페이지
+│   └── ui-showcase/    	# UI 컴포넌트 테스트 및 가이드 페이지
+├── shared/             	# 프로젝트 전역에서 사용되는 독립적인 공통 모듈 계층
+│   ├── api/            	# API 클라이언트 설정
+│   ├── constants/      	# 전역 상수 관리 (경로, API 엔드포인트, 고정 메시지)
+│   ├── hooks/          	# 비즈니스 로직이 없는 공통 유틸리티 훅
+│   ├── lib/            	# 외부 라이브러리 설정 및 래핑 
+│   ├── types/          	# 전역에서 공통으로 사용되는 타입 정의
+│   ├── ui/             	# 디자인 시스템 기반의 UI 컴포넌트
+│   └── utils/          	# 순수 함수 기반 공통 유틸리티 (마스킹, 날짜 포맷팅 등)
+├── widgets/            	# Entity와 Feature를 조합하여 독립적으로 작동하는 큰 단위 UI
+├── App.tsx           		# RouterProvider 및 Provider 설정
+├── main.tsx          		# 앱 엔트리 포인트
+└── routes.tsx        		# React Router를 이용한 경로 설정
 ```
 
 
