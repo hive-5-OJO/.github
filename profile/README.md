@@ -306,28 +306,28 @@ src/
   </tr>
   <tr>
      <td align="center">
-        <p> PM, <br /> 인프라 및 <br /> RFM, LTV <br /> 로직 구현, <br /> 알림 구현</p>
+        <p> [PM] <br /> 인프라, <br /> RFM 배치, <br /> 상담 통계, <br /> 상품 추천</p>
      </td>
      <td align="center">
-        <p> FE <br /> 로그인, <br />회원 관리, <br /> 분석 페이지 구현</p>
+        <p> [FE] <br /> 로그인, <br />회원 관리, <br /> 분석 페이지,<br />발표</p>
      </td>
      <td align="center">
-        <p>분석 서버, <br /> 상담 통계, <br />코호트 분석<br /> 로직 구현, <br /> 고객 맞춤 <br />상품 추천, <br /> 이탈률 예측 구현</p>
+        <p>[PY/DA] <br />분석 배치, <br /> LTV 로직, <br />코호트 분석, <br /> 보고서 생성</p>
      </td>
      <td align="center">
-        <p> 더미 데이터 생성, <br /> 권한 관리 <br /> 구현</p>
+        <p>[IAM/ML] <br /> 권한 관리, <br /> 상담 통계, <br /> 이탈률 예측</p>
      </td>
      <td align="center">
-        <p> 엘라스틱<br />서치, <br /> 대시보드 및 <br />알림 구현</p>
+        <p>[Search] <br />엘라스틱<br />서치, <br /> 고객 필터링, <br />대시보드</p>
      </td>
      <td align="center">
-        <p> 배치를 통해 <br /> 고객 특성 <br />생성, <br /> 이탈률 예측 구현</p>
+        <p>[BE/Core] <br /> 고객 특성 <br />배치, <br /> 고객 메모, <br />고객 채널</p>
      </td>
      <td align="center">
-        <p> 더미 데이터 생성, <br /> 권한 관리 <br /> 구현</p>
+        <p>[QA] <br />더미 데이터, <br /> 정합성 검증,<br />ppt 제작 </p>
      </td>
      <td align="center">
-        <p> 고객 관리 및 <br /> 프론트 구현</p>
+        <p>[CX/Search]<br /> 고객 관리, <br /> 프론트 보조</p>
      </td>
   </tr>
 </table>
