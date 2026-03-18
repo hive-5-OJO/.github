@@ -87,44 +87,49 @@ docker-compose.yml
 ### Spring
 ```
 java/org/backend
-├── common (예외 처리, 공통 응답, 유틸리티)              
-├── config (Security, Elasticsearch, Database 설정)              
+├── common 						// 예외 처리, 공통 응답, 유틸리티              
+├── config 						// Security 설정              
 ├── domain               
-│   ├── member           // 회원 도메인
-│   │   ├── controller   
-│   │   ├── service      
-│   │   ├── entity       
-│   │   ├── document     
+│   ├── admin            		// 관리자 도메인
+│   │   ├── controller
+│   │   ├── dto      
+│   │   ├── entity    
 │   │   ├── repository   
-│   │   │   ├── MemberRepository.java     ///jpa  
-│   │   │   └── MemberSearchRepository.java //엘라스틱 서치
-│   │   └── dto          
-│   ├── advice           // 상담 도메인
+│   │   └── service
+│   ├── advice           		// 상담 도메인
 │   │   ├── ... (위와 동일 구조)
-│   ├── analysis           // 분석 도메인(RFM, LTV 등)
+│   │   ├── document 	 		# Elasticsearch 관련  
+│   │   ├── formatter          
+│   │   └── view  
+│   ├── analysis         		// 분석 도메인(RFM, LTV 등)
+│   │   ├── ... (admin과 동일 구조)
+│   ├── auth             		// 권한 관리 도메인(로그인, 회원가입 등)
 │   │   ├── ... (위와 동일 구조)
-│   │   └── batch 
-│   ├── auth           // 권한 관리 도메인(로그인, 회원가입 등)
+│   │   ├── interceptor 	  
+│   │   ├── oauth          
+│   │   └── security
+│   ├── batch
+│   │   ├── ... (admin과 동일 구조)
+│   │   ├── config 	  
+│   │   ├── job          
+│   │   └── scheduler
+│   ├── channel
+│   │   ├── ... (admin과 동일 구조)
+│   ├── member          		// 회원 도메인
 │   │   ├── ... (위와 동일 구조)
-│   └── dummy           // 더미 데이터 도메인(필요시)
-│       └─ ... (위와 동일 구조)
-├── global  // (전역 변수 등)
-└── infra (파이썬 연동을 위한 코드)
+│   │   └── document 
+│   ├── subscription
+│   │   ├── ... (admin과 동일 구조)
+└── scheduler  					// Elasticsearch 설정
 ```
 ### FAST API
 ```
 app
-├── api
-│   ├── routes.py 혹은 api.py
-│   └─ ...            
-├── core (설정, 보안, 환경변수)
-├── crud (DB 접근 로직)
-├── db (Session 관리)
-├── models (DB Table 정의)
-├── schemas (Pydantic DTO)             
-├── services (비즈니스 로직, AI 모델 추론 logic)
-├── tests (단위 테스트)
-└── main.py
+├── analyzer 		// 분석 로직         
+├── churn 			// 이탈률 예측 모델
+├── model 			// 맞춤 추천 상품 로직
+├── database.py 	// db연동
+└── main.py 		// API 및 CORS 등 기본 설정
 ```
 ### React
 ```
