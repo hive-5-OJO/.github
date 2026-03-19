@@ -10,7 +10,7 @@ LG 유플러스 유레카 SW 교육과정 3기 최종 융합 프로젝트 <br />
 [서비스 관련 사진 - 추후 추가 예정]
 <div align="center">
 	
-### 🔗 [OJO 바로가기 (서비스 출시 예정) ](https://github.com/hive-5-OJO)
+### 🔗 [OJO 바로가기](http://high5-ojo.s3-website.ap-northeast-2.amazonaws.com)
 
 
 </div>
