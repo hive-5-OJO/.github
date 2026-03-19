@@ -319,7 +319,7 @@ src/
         <p>[IAM/ML] <br /> 권한 관리, <br /> 상담 통계, <br /> 이탈률 예측</p>
      </td>
      <td align="center">
-        <p>[Search] <br />엘라스틱<br />서치, <br /> 고객 필터링, <br />대시보드</p>
+        <p>[Search] <br />엘라스틱<br />서치, <br /> 고객 필터링, <br />대시보드, <br />영상 제작</p>
      </td>
      <td align="center">
         <p>[BE/Core] <br /> 고객 특성 <br />배치, <br /> 고객 메모, <br />고객 채널</p>
