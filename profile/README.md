@@ -4,11 +4,30 @@ LG 유플러스 유레카 SW 교육과정 3기 최종 융합 프로젝트 <br />
 
 ## 💡 개요
 > 고객 데이터 기반 고객 분석 서비스 "OJO"는 고객에 대한 정보를 손쉽게 볼 수 있는 CRM 서비스입니다. </br>
+
 > 상담 서비스 데이터로 고객들의 성향과 특성을 만들어 고객들에게 적합한 서비스를 제공해줄 수 있습니다. </br>
 > 마케터, 상담사 등이 이 서비스를 이용하여 고객의 RFM, LTV, 코호트 분석, 상담 통계 등을 조회할 수 있습니다.
 
-[서비스 관련 사진 - 추후 추가 예정]
+[서비스 관련 사진]
 <div align="center">
+<img width="2874" height="1436" alt="스크린샷 2026-03-23 131155" src="https://github.com/user-attachments/assets/6efcafae-f6f4-433e-89fd-20ed2d5997a9" />
+<img width="2870" height="1348" alt="image" src="https://github.com/user-attachments/assets/5e86946e-6d1d-4823-a132-943ed3d8b57d" />
+<img width="2859" height="1434" alt="image" src="https://github.com/user-attachments/assets/d6bebfb5-a85b-49e9-9883-0d483b660d25" />
+<img width="2870" height="776" alt="스크린샷 2026-03-23 131518" src="https://github.com/user-attachments/assets/2b7977fa-ad34-437d-b9db-6a6cc3dfb5b2" />
+
+<img width="2879" height="1122" alt="스크린샷 2026-03-23 131547" src="https://github.com/user-attachments/assets/ec23ff25-2ca3-46cd-b2cd-105a5156041d" />
+<img width="2875" height="1196" alt="스크린샷 2026-03-23 131625" src="https://github.com/user-attachments/assets/3e9a2bf8-fe62-4576-92bc-d44b68825275" />
+<img width="2879" height="1432" alt="스크린샷 2026-03-23 131639" src="https://github.com/user-attachments/assets/1f5489eb-1f06-4c86-b229-703fcf5eb3ee" />
+
+<img width="1576" height="1430" alt="스크린샷 2026-03-23 131729" src="https://github.com/user-attachments/assets/b19d4e41-2afa-4638-8477-0737898ce5e5" />
+<img width="1575" height="1425" alt="스크린샷 2026-03-23 131756" src="https://github.com/user-attachments/assets/5c52e361-abf4-41c4-b8f3-005e96667b9f" />
+<img width="1568" height="1422" alt="스크린샷 2026-03-23 131806" src="https://github.com/user-attachments/assets/54a5d827-fb7a-4112-8dee-123191c65922" />
+<img width="1580" height="1431" alt="스크린샷 2026-03-23 131817" src="https://github.com/user-attachments/assets/57b46ec0-83cd-4070-bd95-7ea0ad6394da" />
+<img width="2877" height="1450" alt="스크린샷 2026-03-23 131836" src="https://github.com/user-attachments/assets/dfd85043-37ce-41a7-adc1-ba0f18034450" />
+
+<img width="2873" height="1093" alt="스크린샷 2026-03-23 143104" src="https://github.com/user-attachments/assets/476ac33e-67bf-4627-b0eb-a6742952d65b" />
+
+
 	
 ### 🔗 [OJO 바로가기](http://high5-ojo.s3-website.ap-northeast-2.amazonaws.com)
 
